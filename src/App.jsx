@@ -57,7 +57,7 @@ const handleFormSubmit = (event) => {
           
         </label><br/>
         <label>
-          Address:
+          City:
           <input type='text' name='city' value={city} onChange={(e)=>setCity(e.target.value)} className='input-box'/>
           
           
